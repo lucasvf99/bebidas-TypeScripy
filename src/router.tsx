@@ -12,8 +12,9 @@ export default function AppRouter() {
             <Route element={<Layout/>}> 
                 {/* colocando index definimos la pagina principal */}
                 <Route path='/' element={<IndexPage/>} index/> 
+                {/* // El componente FavoritePage se cargará de forma diferida, y mientras se carga, se puede mostrar un indicador de carga o un mensaje de espera. */}
                 <Route path='/favoritos' element={
-                    <Suspense fallback="Cargando..."> // El componente FavoritePage se cargará de forma diferida, y mientras se carga, se puede mostrar un indicador de carga o un mensaje de espera.
+                    <Suspense fallback="Cargando..."> 
                         <FavoritePage/> 
                     </Suspense>
                 }/>
