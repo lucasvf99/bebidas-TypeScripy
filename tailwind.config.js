@@ -8,7 +8,7 @@ export default  {
     extend: {
         backgroundImage: {
             "header" : "url('/bg.jpg')"
-        },
+        }
     },
   },
   plugins: [],

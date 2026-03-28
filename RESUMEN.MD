@@ -72,3 +72,19 @@ creo mi useAppStore y creo mi store, dentro de esa funcion tomo una copia de mis
     Para mejorar el peformance, si hacemos npm build solo se crea un archivo de js, hace que la pagina de inicio sea aun mas pesada 
  -->
 55. importar lazy y Suspense en router 
+
+<!-- Agregar ia al proyecto  -->
+
+56. crear una view para la busqueda con ia, crear un slice y validar formulario mediante new FormData
+<!-- genera el obj de formData en base al submit -->
+57. crear funcion en el slice para hacer la busqueda 
+58. instalar framework de vercel 
+59. generar un archivo en lib para todo lo de openRputer
+60. importar createOpenRouter, crearconstante para la configuracion, hacer una apiKey en operRouter
+61. crear un archivo en service para que maneje las interacciones a openRouter
+62. intalar paquete ai, importar en AiService StremText, crear funcion asincrona, el streamText debe tener modelo, que utilizamos la funcion openRouter de ai.ts, agregarle el modelo 
+63. retornar los resultados de mi AiService
+64. en mi aiSlice utilizamos un for await para mostrar los datos, se van mostrando los datos poco a poco
+65. mostrar los datos en mi view
+66. al hacer otra pregunta en mi buscador, excribe sobre lo escrito, desabilitamos el boton con una funcion en mi slice 
+67. en mi streamText se le puede pasar una configuracion llamada system, permite darle indicaciones de como comportarse y como responder
